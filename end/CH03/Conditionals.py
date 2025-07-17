@@ -23,3 +23,5 @@ def condTest():
         print("X is greater than y")
 
 condTest()
+user = input ("Is today a good day? (y/n)")
+if ("y"): print ("Yes it is")
