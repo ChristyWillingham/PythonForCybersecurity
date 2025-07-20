@@ -1,27 +1,17 @@
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 # example workign with conditionals
-#By Ed Goad
-# date: 2/3/2021
+# By Christy Willingham
+# Write a script that:
+#  Asks the user "Is today a good day? (y/n)"
+#   Takes input from the user
+#   If the answer is "y", print out "Yes it is"
 
-# Suggestion - 
-#   add in <, ==, > one at a time
-#   make each of them if statements initially
-#   Change x and y values to test the various paths
-#   eventually simplfy with if, elif, else
+user_name = input("What is your name? ")
+print("Hello " + user_name)
 
-def condTest():
-    x, y = 100, 10
+# define the question
+today_is_a_good_day = input("Is today a good day? (y/n) ")
 
-    # First condition test, x is less than y
-    if x < y:
-        print("X is less than y")
-    # Another conditional test, x is equal to y
-    elif x == y:
-        print("X is equal to y")
-    # Last conditional test, x is greater than y
-    else:
-        print("X is greater than y")
+if (today_is_a_good_day == "Y"):
+    print("Yes it is")
 
-condTest()
-user = input ("Is today a good day? (y/n)")
-if ("y"): print ("Yes it is")
