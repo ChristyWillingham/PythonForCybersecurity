@@ -12,6 +12,8 @@ print("Hello " + user_name)
 # define the question
 today_is_a_good_day = input("Is today a good day? (y/n) ")
 
-if (today_is_a_good_day == "Y"):
-    print("Yes it is")
+if (today_is_a_good_day == "y"):
+    print ("Yeah it is")
 
+for _ in range(10):
+    print ("yeah it is")
