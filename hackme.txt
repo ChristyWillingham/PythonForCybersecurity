@@ -1,5 +1,0 @@
-I see your first name is: l
-I see your favorite color is: l
-I see your first pet's name is: l
-I see your mother's maiden name is: l
-I see the elementary school you attended was: l
