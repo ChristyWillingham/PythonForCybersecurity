@@ -1,24 +1,22 @@
 #!/usr/bin/env python3
 # Sample script that writes to a file
-# By Ed Goad
-# 12/12
+# By Christy Willingham
 
-import os
+# open file for writing - 'f' is commonly used to reference a file
+f = open("hackme.txt", "w")
 
-# Get current file directory
-script_path = os.path.abspath( __file__ )
-script_dir = os.path.dirname( script_path )
-# Build file path
-file_path = os.path.join(script_dir, "testfile.txt")
+# write content and save it to the file
+first_name = input("What is your first name?")
+favorite_color = input("What is your favorite color?")
+pets_name = input("What was your first pet's name?")
+mothers_manden = input("What is your mother's maiden name?")
+elementary_school = input("What elementary school did you attend?")
+f.write("I see your first name is: " + first_name + "\n" )
+f.write("I see your favorite color is: " + favorite_color + "\n" )
+f.write("I see your first pet's name is: " + pets_name + "\n" )
+f.write("I see your mother's maiden name is: " + mothers_manden + "\n" )
+f.write("I see the elementary school you attended was: " + elementary_school + "\n") 
+# close the file
+f.close()
 
-# Open file for writing
-test_file = open(file_path, "w")
-
-# Write lines to the file
-test_file.write( "Hello World\n" )
-test_file.write( "My name is Ed\n" )
-test_file.write( "I like rubber ducks\n" )
-
-# Close the file
-test_file.close()
 
