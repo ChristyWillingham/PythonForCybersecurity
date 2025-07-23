@@ -19,4 +19,9 @@ f.write("I see the elementary school you attended was: " + elementary_school + "
 # close the file
 f.close()
 
-
+print ("Here is someone to hack - information")
+print (first_name)
+print (favorite_color)
+print (pets_name)
+print (mothers_manden)
+print (elementary_school)
