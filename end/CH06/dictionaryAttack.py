@@ -10,7 +10,6 @@
 import os
 import sys
 from passlib.hash import sha512_crypt
-from passlib.hash import sha256_crypt
 
 def test_password(hashed_password, 
     salt, plaintext_password):
